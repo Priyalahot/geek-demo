@@ -1,0 +1,22 @@
+body{
+    padding:20px;
+}
+#heading{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+.un{
+    list-style-type: circle;
+    background-color: coral;
+    list-style-position: outside;
+}
+.on{
+
+    list-style-position: inside;
+    
+}
+.deco{
+    text-decoration: overline;
+   
+}

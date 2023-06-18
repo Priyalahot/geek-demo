@@ -23,7 +23,7 @@ nav ul li{
 nav ul li a{
     color: black;
     margin-left: 60px;
-    font-size: 18px;
+    font-size: 120%;
 }
 a:hover{
     border-top: 2px solid darkcyan;
@@ -33,7 +33,7 @@ a:hover{
 
 .l{
     line-height: 50px;
-    height: 60px;
+    height: 100%;
 }
 .section1{
 width: 100%;
@@ -50,7 +50,7 @@ text-align: justify;
 }
 .info p{
     padding: 10px;
-   
+   font-size: 16px;
 
 }
 .info h2{
@@ -104,4 +104,5 @@ footer{
     color: wheat;
     text-align: center;
     line-height: 1cm;
+    font-size: 16px;
 }

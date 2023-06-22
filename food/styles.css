@@ -1,1 +1,80 @@
-.header
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+.left h1{
+    font-size: 2em;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+
+}
+.right{
+    margin-top: 10px;
+}
+
+
+
+.pizza{
+    width: 100%;
+    padding: 20px;
+    margin-top: 2%;
+    
+}
+.pizza-logo,.fries-logo{
+    width: 40%;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg,black,red,black);
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+} 
+.pizza-img, .fries-img{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.pizza .pizza-img img{
+    height: 300px;
+    width: 500px;
+    border-radius: 30px;
+}
+.fries{
+    width: 100%;
+    margin-top: 40px;
+   
+}
+.fries-img img{
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
+}
+.footer{
+    color: white;
+    margin-top: 100px;
+    background-color: rgb(31, 11, 11);
+    text-align: center;
+    padding: 50px;
+}
+.footer-icon i{
+    margin: 20px;
+}
+.img-caption{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+

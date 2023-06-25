@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    height: 20px;
+   
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.menu > div{
+    margin-right: 60px;
+}
+.navbar a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    border-bottom: 2px solid black;
+}
+/* banner */
+.banner div img{
+    width: 100%;
+    height: 550px;
+}
+.image{
+    position: relative;
+    text-align: justify;
+    font-size: 18px;
+}
+.image-text{
+    padding: 40px;
+    position: absolute;
+    top: 30%;
+    right: 70px;
+    width: 30%;
+}
+.image-text h1{
+    font-size: 30px;
+}
+.image-text button,.game .img-desc button{
+    background-color: #0067b8;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25%;
+}
+.option{
+    margin: auto;
+    width: 800px;
+}
+.inner{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    line-height: 0.9cm;
+   
+}
+.inner div a{
+    color: #0067b8;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.inner > div i{
+    font-size: 40px;
+}
+.device{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 500px;
+    
+}
+.device-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.device-inner img{
+    height: 150px;
+    width: 270px;
+}
+.device-inner div{
+   width: 25%;
+   line-height: 0.7cm;
+   text-align: left;
+}
+.device-inner div h2{
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    overflow: hidden;
+}
+.device-inner div p{
+    margin-bottom: 20px;
+}
+.device-inner div a{
+    color: #0067b8;
+    text-decoration: none;
+    font-weight: bold;
+}
+.game{
+    position: relative;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.game img{
+    width: 100%;
+    height: 550px;
+}
+.game .img-desc{
+    padding: 40px;
+    position: absolute;
+    top: 30%;
+    left: 70px;
+    width: 30%;
+    color: white;
+    text-align: justify;
+    
+}
+.game .img-desc h1{
+    margin-bottom: 10px;
+}
+.game .img-desc p{
+    margin-bottom: 10px;
+    line-height: 0.7cm;
+}
+.device h1{
+    margin-bottom: 13px;
+}
+.social{
+    width: 100%;
+    height: 100px;
+    margin-left: 60px;
+    
+}
+.social span{
+    word-spacing: 14px;
+    font-size: 28px;
+    margin-left: 22px;
+}
+.footer{
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    height: 300px;
+    padding: 36px;
+}
+.footer div{
+  width: 16.66%;
+
+}
+.footer div a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 12px;
+    line-height: 0.9cm;
+}
+.footer div h3{
+    color: #616161;
+    font-weight: 600px;
+}
+.footer-end{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.footer-end a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.footer-end a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
